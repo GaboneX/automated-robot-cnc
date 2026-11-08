@@ -177,27 +177,4 @@ Wymagany jest **ABB RobotStudio** z RobotWare w wersji 6.16.
 4. Na karcie **Simulation** kliknij **Play**.
 5. Robot rozpocznie pracę od otwarcia drzwi i będzie czekał na detal na przenośniku.
 
-Sam kod robota można też przejrzeć bez RobotStudio w folderze `src/rapid/`.
 
-## Struktura repozytorium
-
-```
-.
-├── README.md
-├── src/
-│   └── rapid/
-│       ├── Module1.mod       # program główny robota
-│       ├── CalibData.mod     # dane narzędzia
-│       └── EIO.cfg           # definicje sygnałów
-└── docs/
-    └── images/               # zrzuty ekranu z symulacji
-```
-
-Paczka stacji (`.rspag`) jest duża (ok. 90 MB), więc jest udostępniona w **Releases**, a nie w repozytorium.
-
-## Autorzy
-
-Projekt wykonany w zespole dwuosobowym:
-
-- **<Imię i nazwisko>** – [@login](https://github.com/login)
-- **<Imię i nazwisko drugiej osoby>**
