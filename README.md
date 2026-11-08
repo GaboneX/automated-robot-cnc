@@ -19,8 +19,7 @@ Projekt został wykonany w **zespole dwuosobowym**.
 - [Logika stacji (Smart Components)](#logika-stacji-smart-components)
 - [Zdefiniowane punkty](#zdefiniowane-punkty)
 - [Uruchomienie](#uruchomienie)
-- [Struktura repozytorium](#struktura-repozytorium)
-- [Autorzy](#autorzy)
+
 
 ---
 
