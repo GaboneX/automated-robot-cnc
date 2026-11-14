@@ -18,7 +18,6 @@ Projekt został wykonany w **zespole dwuosobowym**.
 - [Sygnały I/O](#sygnały-io)
 - [Logika stacji (Smart Components)](#logika-stacji-smart-components)
 - [Zdefiniowane punkty](#zdefiniowane-punkty)
-- [Uruchomienie](#uruchomienie)
 
 ---
 
@@ -166,14 +165,3 @@ W programie zdefiniowano 19 punktów (`robtarget`):
 | Panel obrabiarki | `pPanelApp`, `pBtnStart`, `pBtnUnlock` |
 | Przenośnik wyjściowy | `pDropApp`, `pDrop` |
 
-## Uruchomienie
-
-Wymagany jest **ABB RobotStudio** z RobotWare w wersji 6.16.
-
-1. Pobierz paczkę stacji `Projekt_Robot_CNC.rspag` z zakładki **Releases** tego repozytorium.
-2. W RobotStudio wybierz **File → Open → Unpack & Work** i wskaż pobrany plik.
-3. Poczekaj na odtworzenie stacji i wirtualnego kontrolera.
-4. Na karcie **Simulation** kliknij **Play**.
-5. Robot rozpocznie pracę od otwarcia drzwi i będzie czekał na detal na przenośniku.
-
-Sam kod robota można też przejrzeć bez RobotStudio w folderze `src/rapid/`.
